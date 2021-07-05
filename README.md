@@ -1,6 +1,7 @@
 # noteApp
 
 Must have node and npm installed to start the project on localhost
+
 On your command line
   - npm install
   - npm start
