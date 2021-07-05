@@ -6,9 +6,8 @@ let noteColors = ['#ff65a3', '#7afcff', '#feff9c', '#ff7eb9', '#b5e7a0', '#fff74
 
 function makeNote() {
   let content = document.getElementById('input-text').value
-
   //Condition to let only 36 notes be allowed
-  if (noteList.length >= 36) {
+  if (noteList.childNodes.length > 36) {
     window.alert('Only 36 notes are allowed.')
     return;
   }
